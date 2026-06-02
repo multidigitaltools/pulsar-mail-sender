@@ -1,135 +1,187 @@
-# PULSAR Mail Sender 🚀
+<div align="center">
 
-> Self-hosted Windows bulk email sender — AI deliverability, SMTP rotation, embedded tracking. No per-email fees ever.
+<img src="https://multidigitaltools.com/images/products/pulsar/v2/06_app_dashboard.png" alt="PULSAR Dashboard" width="780" style="border-radius:12px; margin-bottom:16px"/>
+
+# PULSAR Mail Sender
+
+**Self-hosted Windows bulk email — AI deliverability · SMTP rotation · embedded tracking**  
+No monthly fees. No per-email charges. No data leaving your machine. Buy once, own forever.
+
+<br/>
+
+[![Download Free Trial](https://img.shields.io/badge/⬇_DOWNLOAD_FREE_TRIAL-14_days_full_access-00C8FF?style=for-the-badge&logoColor=white)](https://github.com/multidigitaltools/pulsar-mail-sender/releases/download/v1.0.0/PULSAR_v1.0.0_Setup.exe)
+&nbsp;
+[![Buy Now $89](https://img.shields.io/badge/🛒_BUY_NOW-$89_one--time-7B5CF0?style=for-the-badge)](https://multidigitaltools.com/products/pulsar-mail-sender)
+&nbsp;
+[![Documentation](https://img.shields.io/badge/📚_DOCS-User_Guide-11998e?style=for-the-badge)](https://multidigitaltools.com/docs/pulsar-mail-sender/)
+
+<br/>
 
 [![Version](https://img.shields.io/badge/version-1.0.0-cyan?style=flat-square)](https://github.com/multidigitaltools/pulsar-mail-sender/releases)
-[![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)](https://github.com/multidigitaltools/pulsar-mail-sender/releases)
-[![License](https://img.shields.io/badge/license-Proprietary-orange?style=flat-square)](LICENSE)
-[![Trial](https://img.shields.io/badge/trial-14--day%20free-green?style=flat-square)](https://multidigitaltools.com/products/pulsar-mail-sender)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078d4?style=flat-square&logo=windows)](https://github.com/multidigitaltools/pulsar-mail-sender/releases)
+[![Runtime](https://img.shields.io/badge/.NET-10.0-512bd4?style=flat-square&logo=dotnet)](https://github.com/multidigitaltools/pulsar-mail-sender/releases)
+[![Trial](https://img.shields.io/badge/trial-14--day%20free-brightgreen?style=flat-square)](https://multidigitaltools.com/products/pulsar-mail-sender)
+[![Price](https://img.shields.io/badge/price-%2489%20one--time-orange?style=flat-square)](https://multidigitaltools.com/products/pulsar-mail-sender)
 
-PULSAR is a professional bulk email platform that runs entirely on your Windows machine — no monthly SaaS fees, no per-email charges, no data leaving your control. Built on .NET 10 with a MailKit SMTP engine, it combines enterprise-grade deliverability tools (DKIM, IP warm-up, SMTP rotation, SOCKS5 proxies) with an AI spam-scoring assistant powered by Claude API. Buy it once, own it forever.
-
----
-
-## ✨ Features
-
-- **Multi-SMTP Rotation** — add unlimited SMTP servers, set per-server rate limits, and let PULSAR balance load automatically
-- **Automated IP Warm-Up** — structured warm-up scheduler ramps sending volume day-by-day to build sender reputation safely
-- **Per-Domain DKIM Signing** — manage DKIM private keys inside the app; signatures applied automatically at send time
-- **SOCKS5 Proxy Support** — route outbound connections through proxies for additional IP diversity
-- **Embedded Tracking Server** — built-in ASP.NET Core server captures opens, clicks, and unsubscribes locally — zero third-party dependencies
-- **Drip Sequences** — build multi-step automation campaigns triggered by time delays or subscriber behaviour
-- **A/B Split Testing** — test subject lines and full content variants; PULSAR picks the winner automatically
-- **AI Spam & Content Scoring** — Claude API integration checks every campaign before send; falls back to local Ollama when offline
-- **Local Contact Database** — SQLite via EF Core; import from CSV or XLSX, segment with tags and custom fields
-- **Encrypted Settings Store** — all credentials stored in LiteDB encrypted with Windows DPAPI — nothing in plain text
-- **Live Analytics Dashboard** — real-time open/click/bounce charts powered by LiveCharts2
-- **Auto-Updates** — Velopack-based silent updater; new versions install in seconds without reinstalling
+</div>
 
 ---
 
-## 🎯 Why PULSAR?
+## What is PULSAR?
 
-| Feature | PULSAR | Atomic Mail Sender | MailWizz | Gammadyne Mailer |
-|---|---|---|---|---|
-| **Price** | **$89 one-time** | $129/year | $59/month (server) | $149 one-time |
-| **AI spam scoring** | ✅ Claude + Ollama | ❌ | ❌ | ❌ |
-| **Embedded tracking server** | ✅ local, no SaaS | ❌ (3rd party) | ✅ server-side | ❌ |
-| **SMTP rotation** | ✅ unlimited servers | ✅ limited | ✅ | ✅ |
-| **IP warm-up scheduler** | ✅ automated | ❌ manual | partial | ❌ |
-| **DKIM signing in-app** | ✅ per-domain keys | ❌ | ✅ | ✅ |
-| **SOCKS5 proxy support** | ✅ | ❌ | ❌ | ✅ |
-| **Drip sequences** | ✅ | ❌ | ✅ | ❌ |
-| **A/B split testing** | ✅ subject + content | subject only | ✅ | ❌ |
-| **Local data (no cloud)** | ✅ 100% local | ✅ | ❌ (server app) | ✅ |
-| **Auto-updates** | ✅ Velopack | ❌ manual | n/a | ❌ manual |
+PULSAR is a professional **bulk email sender for Windows** that lives entirely on your machine — no SaaS subscription, no per-email fees, no third-party servers touching your data. It gives small teams and agencies the same deliverability tools as enterprise senders: multi-SMTP rotation, automated IP warm-up, DKIM signing, self-hosted tracking, and AI-powered spam scoring — all for a single one-time payment.
+
+---
+
+## ✨ Key Features
+
+| | Feature | Detail |
+|---|---|---|
+| 🔄 | **Multi-SMTP Rotation** | Unlimited servers, per-server rate limits, load-balanced automatically |
+| 🔥 | **Automated IP Warm-Up** | Day-by-day ramp scheduler builds sender reputation safely |
+| 🔐 | **DKIM Signing** | Per-domain keys managed in-app; signed at send time |
+| 🧅 | **SOCKS5 Proxy Support** | Route connections through proxies for IP diversity |
+| 📡 | **Embedded Tracking Server** | Opens, clicks, unsubscribes captured locally — zero third-party pixels |
+| 🤖 | **AI Spam Scoring** | Claude API checks content before send; falls back to local Ollama offline |
+| ⏱️ | **Drip Sequences** | Multi-step automation triggered by time or behaviour |
+| 🧪 | **A/B Split Testing** | Test subject lines and full content variants |
+| 📋 | **Local Contact Database** | SQLite via EF Core; CSV/XLSX import; tag-based segmentation |
+| 🔒 | **Encrypted Credential Store** | LiteDB + Windows DPAPI — nothing in plain text |
+| 📊 | **Live Analytics Dashboard** | Real-time open/click/bounce charts (LiveCharts2) |
+| ♻️ | **Auto-Updates** | Velopack silent updater — new versions in seconds |
+
+---
+
+## 🖥️ Screenshots
+
+<div align="center">
+
+| Dashboard | Campaigns | AI Assistant |
+|---|---|---|
+| ![Dashboard](https://multidigitaltools.com/images/products/pulsar/v2/06_app_dashboard.png) | ![Campaigns](https://multidigitaltools.com/images/products/pulsar/v2/08_app_campaigns.png) | ![AI](https://multidigitaltools.com/images/products/pulsar/v2/12_app_ai.png) |
+
+| SMTP Servers | Reports | Campaign Wizard |
+|---|---|---|
+| ![SMTP](https://multidigitaltools.com/images/products/pulsar/v2/07_app_smtp.png) | ![Reports](https://multidigitaltools.com/images/products/pulsar/v2/11_app_reports.png) | ![Wizard](https://multidigitaltools.com/images/products/pulsar/v2/10_app_wizard.png) |
+
+</div>
+
+---
+
+## 🎯 How PULSAR Compares
+
+| Feature | **PULSAR** | Atomic Mail Sender | MailWizz | Gammadyne Mailer |
+|---|:---:|:---:|:---:|:---:|
+| **Price** | **$89 one-time** | $129/yr | $59/mo | $149 one-time |
+| AI spam / content scoring | ✅ Claude + Ollama | ❌ | ❌ | ❌ |
+| Embedded self-hosted tracking | ✅ local | ❌ 3rd party | ✅ server | ❌ |
+| Automated IP warm-up | ✅ | ❌ manual | ⚠️ basic | ❌ |
+| DKIM signing in-app | ✅ | ❌ | ✅ | ✅ |
+| SOCKS5 proxy | ✅ | ⚠️ basic | ❌ | ✅ |
+| Drip sequences | ✅ | ❌ | ✅ | ❌ |
+| A/B split testing | ✅ subject + content | ❌ | ✅ | ❌ |
+| Encrypted credential store | ✅ DPAPI | ❌ | ❌ | ❌ |
+| Auto-updates | ✅ Velopack | ❌ manual | n/a | ❌ |
+| **14-day free trial** | ✅ | ❌ | ❌ | ❌ |
 
 ---
 
 ## 🆓 14-Day Free Trial
 
-The full-featured trial includes **everything** in the paid version — no feature gating, no send limits, no credit card required.
+The trial includes **everything** — no feature gating, no send caps, no credit card.
 
-**What's included in the trial:**
-- All SMTP server slots (unlimited)
-- Full campaign wizard with A/B testing and drip sequences
-- Embedded tracking server — opens, clicks, unsubscribes
-- AI spam scoring (requires your own Claude API key or local Ollama)
-- CSV/XLSX contact import
-- Live analytics dashboard
-- Complete documentation access
+**Included in your trial:**
+- ✅ All SMTP server slots (unlimited)
+- ✅ Full campaign wizard with A/B testing and drip sequences
+- ✅ Embedded open / click / unsubscribe tracking
+- ✅ AI spam scoring (bring your own Claude API key or use local Ollama)
+- ✅ CSV / XLSX contact import + segmentation
+- ✅ Live analytics dashboard
+- ✅ All documentation and tutorials
 
-**How to start:**
-1. Download the installer from the link below
-2. Run `PULSAR-Setup.exe` — no account registration needed
-3. Launch PULSAR; the 14-day trial activates automatically on first run
-4. When the trial expires, enter your license key to continue
+**How to start — 3 steps:**
+1. Click **Download Free Trial** below
+2. Run `PULSAR_v1.0.0_Setup.exe` — no account needed
+3. PULSAR starts your 14-day trial automatically on first launch
 
----
+<div align="center">
 
-## 💾 Download
+[![⬇️ Download Free Trial](https://img.shields.io/badge/⬇_DOWNLOAD_FREE_TRIAL_NOW-PULSAR_v1.0.0_Setup.exe_%2868MB%29-00C8FF?style=for-the-badge)](https://github.com/multidigitaltools/pulsar-mail-sender/releases/download/v1.0.0/PULSAR_v1.0.0_Setup.exe)
 
-| Release | Platform | Size | Link |
-|---|---|---|---|
-| PULSAR Mail Sender v1.0.0 | Windows 10/11 x64 | ~95 MB | [https://github.com/multidigitaltools/pulsar-mail-sender/releases/download/v1.0.0/PULSAR_v1.0.0_Setup.exe](DOWNLOAD_LINK) |
-
-> SHA-256 checksums are published alongside each release on the [Releases page](https://github.com/multidigitaltools/pulsar-mail-sender/releases).
+</div>
 
 ---
 
 ## 🚀 Quick Start
 
-1. **Install** — run `PULSAR-Setup.exe` and follow the wizard (installs .NET 10 runtime automatically if not present)
-2. **Add an SMTP server** — go to **Settings → SMTP Servers → Add**, enter host/port/credentials, set your hourly rate limit, and click **Test Connection**
-3. **Import contacts** — open **Contacts → Import**, choose a CSV or XLSX file, map columns (Email, FirstName, LastName, custom fields), and click **Import**
-4. **Create a template** — go to **Templates → New**, write your HTML or plain-text email, use `{{FirstName}}` merge tags, and click **Save**
-5. **Run AI check** — in the Campaign Wizard on step 4, click **AI Score** — PULSAR will flag spam trigger words, missing unsubscribe links, and image-to-text ratio issues
-6. **Launch campaign** — review the send summary (recipient count, estimated duration, SMTP assignment) and click **Send Campaign**
+```
+1.  Run installer        →  PULSAR_v1.0.0_Setup.exe  (includes .NET 10 runtime)
+2.  Add SMTP server      →  SMTP Servers → Add → fill host/port/credentials → Test Connection
+3.  Import contacts      →  Contacts → Import → choose CSV/XLSX → map columns
+4.  Create template      →  Templates → New → write HTML → use {{FirstName}} merge tags
+5.  Run AI check         →  Campaign Wizard step 4 → AI Score → fix flagged issues
+6.  Send campaign        →  Review summary (count · SMTP · duration) → Send Campaign
+```
 
 ---
 
 ## 💰 Pricing
 
-| | PULSAR | Typical Competitor |
-|---|---|---|
-| **Price** | **$89 one-time** | $299 one-time |
-| **Savings** | — | **You save $210 (70%)** |
-| **Updates** | Lifetime (Velopack auto-update) | 1 year included |
-| **Seats** | 1 machine per license | 1 machine per license |
-| **Subscription** | None — ever | None |
+<div align="center">
 
-**$89 one-time · compare $299 · 70% cheaper**
+| | PULSAR | Competitors avg |
+|---|:---:|:---:|
+| **Your price** | **$89 one-time** | $299 one-time |
+| You save | — | **$210 (70% off)** |
+| Subscription | ❌ Never | ❌ |
+| Updates | ✅ Lifetime | 1 year |
+| Machines | 1 per license | 1 per license |
 
-[Buy Now →](https://multidigitaltools.com/products/pulsar-mail-sender)
+**[🛒 Buy PULSAR — $89 one-time →](https://multidigitaltools.com/products/pulsar-mail-sender)**  
+*Instant delivery · Lifetime license · 30-day money-back*
+
+</div>
 
 ---
 
 ## 📋 System Requirements
 
-| Component | Minimum | Recommended |
-|---|---|---|
-| **OS** | Windows 10 x64 (21H2+) | Windows 11 x64 |
-| **RAM** | 4 GB | 8 GB |
-| **Disk** | 500 MB free | 2 GB free (for logs/DB) |
-| **Runtime** | .NET 10 (auto-installed) | .NET 10 |
-| **Network** | SMTP outbound access | Dedicated IP or SMTP relay |
-| **Optional** | Claude API key or Ollama | Claude API key (better AI scoring) |
+| Component | Minimum |
+|---|---|
+| OS | Windows 10 x64 (21H2+) or Windows 11 |
+| RAM | 4 GB (8 GB recommended) |
+| Disk | 500 MB + space for logs/DB |
+| Runtime | .NET 10 — **bundled in installer** |
+| Network | Outbound SMTP access to your server(s) |
+| Optional | Claude API key or local Ollama (for AI scoring) |
 
 ---
 
-## 📚 Documentation
+## 📚 Documentation & Tutorials
 
-Full user guide, SMTP setup tutorials, DKIM configuration walkthrough, deliverability best practices, and API key setup:
+Full install guide · SMTP setup · DKIM configuration · deliverability best practices · video tutorials:
 
-**[https://multidigitaltools.com/docs/pulsar-mail-sender/](https://multidigitaltools.com/docs/pulsar-mail-sender/)**
+**➡️ [multidigitaltools.com/docs/pulsar-mail-sender](https://multidigitaltools.com/docs/pulsar-mail-sender/)**
 
 ---
 
-## 🛒 Buy
+## 🌐 Product Page
 
-One-time payment. Lifetime license. Instant delivery.
+Full feature list · screenshots · pricing · buy now · trial activation:
 
-**[Get PULSAR Mail Sender — $89 →](https://multidigitaltools.com/products/pulsar-mail-sender)**
+**➡️ [multidigitaltools.com/products/pulsar-mail-sender](https://multidigitaltools.com/products/pulsar-mail-sender)**
+
+---
+
+## 🛒 Purchase
+
+<div align="center">
+
+[![Buy PULSAR — $89](https://img.shields.io/badge/🛒_BUY_PULSAR_MAIL_SENDER-$89_one--time_·_lifetime_license-7B5CF0?style=for-the-badge)](https://multidigitaltools.com/products/pulsar-mail-sender)
+
+*One-time payment · Instant delivery · 30-day money-back guarantee*
+
+</div>
 
 ---
 
@@ -137,11 +189,16 @@ One-time payment. Lifetime license. Instant delivery.
 
 | Channel | Details |
 |---|---|
-| **Email** | support@multidigitaltools.com |
-| **Docs** | [https://multidigitaltools.com/docs/pulsar-mail-sender/](https://multidigitaltools.com/docs/pulsar-mail-sender/) |
-| **GitHub Issues** | Bug reports and feature requests: [open an issue](https://github.com/multidigitaltools/pulsar-mail-sender/issues) |
-| **Response time** | Within 24 hours on business days |
+| 📧 Email | support@multidigitaltools.com |
+| 📚 Docs | [multidigitaltools.com/docs/pulsar-mail-sender](https://multidigitaltools.com/docs/pulsar-mail-sender/) |
+| 🐛 Bugs / Requests | [Open an issue](https://github.com/multidigitaltools/pulsar-mail-sender/issues) |
+| ⏱ Response time | Within 24 hours, business days |
 
 ---
 
-*PULSAR Mail Sender is proprietary software © 2026 MultiDigitalTools. All rights reserved.*
+<div align="center">
+
+*PULSAR Mail Sender is proprietary software © 2026 [MultiDigitalTools](https://multidigitaltools.com). All rights reserved.*  
+*[Product Page](https://multidigitaltools.com/products/pulsar-mail-sender) · [Documentation](https://multidigitaltools.com/docs/pulsar-mail-sender/) · [All Products](https://multidigitaltools.com/products)*
+
+</div>
