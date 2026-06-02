@@ -71,7 +71,7 @@ The full-featured trial includes **everything** in the paid version — no featu
 
 | Release | Platform | Size | Link |
 |---|---|---|---|
-| PULSAR Mail Sender v1.0.0 | Windows 10/11 x64 | ~95 MB | [[DOWNLOAD_LINK]](DOWNLOAD_LINK) |
+| PULSAR Mail Sender v1.0.0 | Windows 10/11 x64 | ~95 MB | [https://github.com/multidigitaltools/pulsar-mail-sender/releases/download/v1.0.0/PULSAR_v1.0.0_Setup.exe](DOWNLOAD_LINK) |
 
 > SHA-256 checksums are published alongside each release on the [Releases page](https://github.com/multidigitaltools/pulsar-mail-sender/releases).
 
